@@ -1,0 +1,27 @@
+{
+  "name": "christien",
+  "version": "1.0.0",
+  "private": true,
+  "description": "christien",
+  "author": "christien-kelly",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.7.0",
+    "gatsby-plugin-google-gtag": "^5.7.0",
+    "gatsby-plugin-manifest": "^5.7.0",
+    "gatsby-plugin-mdx": "^5.7.0",
+    "gatsby-source-filesystem": "^5.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
