@@ -1,0 +1,54 @@
+.contentContainer {
+    display: flex;
+    height: 100%;
+}
+
+.leftNavContainer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0.2rem 2.5rem;
+    color: rgba(0, 0, 0, 0.504);
+    transition: margin-bottom 0.7s, color 0.7s, border-color 0.7s;
+}
+
+.leftNavContainer:hover {
+    margin-bottom: 0.4rem;
+    color: rgba(0, 0, 0, 0.697);
+    border-color: rgba(0, 0, 0, 0.697);
+}
+
+.sidebarNavEmail {
+    color: rgba(0, 0, 0, 0.504);
+    font-size: 85%;
+    writing-mode: tb-rl;
+    margin-left: 24px;
+    margin-bottom: 0.65rem;
+    cursor: pointer;  
+    transition: color 0.7s;
+}
+
+.sidebarNavEmail:hover {
+    color: rgba(0, 0, 0, 0.697);
+}
+
+.sidebarNavIcon {
+    cursor: pointer;
+    transition: font-size 1.2s;
+}
+
+.sidebarNavIcon:hover {
+    font-size: 130%;
+}
+
+.pageContainer {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.sidebarNavFooter {
+    height: 150px;
+    margin-left: 50%;
+    border-left: 2.75px rgba(0, 0, 0, 0.472) solid;
+}

@@ -1,0 +1,80 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    border-bottom: black 2px solid;
+    padding: 0.75rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.navLink {
+    display: inline;
+    margin: 0 10px;
+    font-size: 80%;
+    color: #022d36;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.7s;
+}
+
+.navLink:last-child {
+    margin-right: 1rem;
+}
+
+.navLink:hover,
+.logoContainer:hover {
+    color: #022d36e1;
+}
+
+.navItemsContainer, 
+.logoContainer {
+    height: 30px;
+    margin: auto 0.25rem;
+}
+
+.logoContainer {
+    margin-left: 25px;
+    color: #022d36;
+    font-family: 'Nunito';
+    font-size: 150%;
+    line-height: 120%;
+    cursor: pointer;
+    transition: color 0.7s;
+}
+
+.navItemsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navButton {
+    color: #022d36;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 300;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    transition: box-shadow 0.7s, border-color 0.7s;
+    margin-right: 25px;
+}
+    
+.navButton:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+}
+    
+.navButton:focus {
+    border-color: #4285f4;
+    outline: none;
+}
