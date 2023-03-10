@@ -33,7 +33,7 @@
 }
 
 .logoContainer {
-    margin-left: 25px;
+    margin-left: 2rem;
     color: #022d36;
     font-family: 'Nunito';
     font-size: 150%;
@@ -65,16 +65,11 @@
     touch-action: manipulation;
     white-space: pre;
     transition: box-shadow 0.7s, border-color 0.7s;
-    margin-right: 25px;
+    margin-right: 2rem;
 }
     
 .navButton:hover {
     border-color: #dadce0;
     box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
     color: #202124;
-}
-    
-.navButton:focus {
-    border-color: #4285f4;
-    outline: none;
 }
