@@ -19,7 +19,9 @@ const Header = () => {
                     <li className={navLink}>Experience</li>
                     <li className={navLink}>Projects</li>
                 </ul>
-                <button className={navButton}>Resume</button>
+                <button className={navButton}>
+                    Resume
+                </button>
             </div>
         </div>
     ) 

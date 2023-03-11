@@ -1,0 +1,60 @@
+.contentContainer {
+    height: 100%;
+    width: 100%;
+    padding-left: 4rem;
+}
+
+.introSmallText {
+    font-size: 85%;
+    color: rgba(0, 0, 0, 0.697);
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+}
+
+.introName, .introCaption {
+    font-size: 300%;
+    padding-bottom: 0.4rem;
+}
+
+.introName {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.introCaption {
+    color: rgba(0, 0, 0, 0.697);
+    margin-bottom: 1.8rem;
+}
+
+.introTextContainer {
+    margin-top: 1rem;
+    max-width: 750px;
+}
+
+.introButton {
+    margin-top: 3rem;
+    width: 250px;
+    height: 70px;
+    position: relative;
+    background: #f7f5f6;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 90%;
+}
+
+.introButton:hover {
+    opacity: 0.7;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.611),
+      6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.introButton:active {
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+          inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    color: #2b966a;
+}

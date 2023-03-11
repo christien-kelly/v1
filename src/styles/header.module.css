@@ -10,11 +10,11 @@
 .navLink {
     display: inline;
     margin: 0 10px;
-    font-size: 80%;
-    color: #022d36;
-    font-weight: 300;
+    font-size: 85%;
+    color: rgba(0, 0, 0, 0.697);
+    font-weight: 400;
     cursor: pointer;
-    transition: color 0.7s;
+    transition: color 0.3s;
 }
 
 .navLink:last-child {
@@ -23,7 +23,7 @@
 
 .navLink:hover,
 .logoContainer:hover {
-    color: #022d36e1;
+    color: rgba(0, 0, 0);
 }
 
 .navItemsContainer, 
@@ -39,7 +39,7 @@
     font-size: 150%;
     line-height: 120%;
     cursor: pointer;
-    transition: color 0.7s;
+    transition: color 0.3s;
 }
 
 .navItemsContainer {
@@ -48,13 +48,12 @@
 }
 
 .navButton {
-    color: #022d36;
+    color: rgba(0, 0, 0, 0.697);
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 80%;
-    font-weight: 300;
+    font-size: 85%;
     height: 36px;
     line-height: 27px;
     min-width: 54px;
@@ -64,12 +63,12 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     white-space: pre;
-    transition: box-shadow 0.7s, border-color 0.7s;
+    transition: box-shadow 0.3s, border-color 0.3s, color 0.3s;
     margin-right: 2rem;
 }
     
 .navButton:hover {
     border-color: #dadce0;
     box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
-    color: #202124;
+    color: rgba(0, 0, 0);
 }
