@@ -19,9 +19,11 @@ const Header = () => {
                     <li className={navLink}>Experience</li>
                     <li className={navLink}>Projects</li>
                 </ul>
-                <button className={navButton}>
-                    Resume
-                </button>
+                <a target='_blank' rel="noreferrer" href={`docs/Christien Kelly - Resume.pdf`}>
+                    <button className={navButton}>
+                        Resume
+                    </button>
+                </a>
             </div>
         </div>
     ) 

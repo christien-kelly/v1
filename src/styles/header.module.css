@@ -5,6 +5,11 @@
     border-bottom: black 2px solid;
     padding: 0.75rem 0rem;
     margin-bottom: 1rem;
+
+    /* Have the header stay at the top */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .navLink {
