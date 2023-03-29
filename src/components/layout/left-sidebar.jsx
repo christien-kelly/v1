@@ -20,7 +20,7 @@ const LeftSideBar = () => {
             </div>
             <div className={sidebarNavIcon}>
                 <Link 
-                    to='https://www.linkedin.com/in/christien-k-770080107/'
+                    to='https://www.linkedin.com/in/christien-kelly/'
                     target='_blank'
                     ><FiLinkedin size={26}/>
                 </Link>

@@ -1,15 +1,16 @@
 .headerContainer {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    border-bottom: black 2px solid;
+    width: 100%;
+    border-bottom: var(--deep-blue) 2px solid;
     padding: 0.75rem 0rem;
     margin-bottom: 1rem;
+    background: white;
 
     /* Have the header stay at the top */
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
 }
 
 .navLink {
@@ -39,7 +40,7 @@
 
 .logoContainer {
     margin-left: 2rem;
-    color: #022d36;
+    color: var(--deep-blue);
     font-family: 'Nunito';
     font-size: 150%;
     line-height: 120%;
@@ -52,10 +53,14 @@
     align-items: center;
 }
 
+.logoImage {
+    height: 100%;
+}
+
 .navButton {
     color: rgba(0, 0, 0, 0.697);
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    background-color: var(--off-white-button);
+    border: 1px solid var(--off-white-button);
     border-radius: 4px;
     cursor: pointer;
     font-size: 85%;
@@ -73,7 +78,7 @@
 }
     
 .navButton:hover {
-    border-color: #dadce0;
+    border-color: var(--off-white-button__hover);
     box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
     color: rgba(0, 0, 0);
 }

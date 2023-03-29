@@ -1,14 +1,14 @@
 import { Link } from 'gatsby';
 import * as React from 'react';
 import { 
-    leftNavContainer,
+    rightNavContainer,
     sidebarNavFooter,
     sidebarNavEmail
 } from '../../styles/layout.module.css'
 
 const RightSideBar = () => {
     return (
-        <div className={leftNavContainer}>
+        <div className={rightNavContainer}>
             <div className={sidebarNavEmail}>
                 <Link 
                     to='mailto:christien.kelly@gmail.com'

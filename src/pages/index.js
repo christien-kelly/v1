@@ -1,24 +1,31 @@
 import * as React from 'react';
-import Intro from '../components/intro';
+import Hero from '../components/sections/hero';
+import About from '../components/sections/about';
 import Header from '../components/layout/header';
 import Layout from '../components/layout/layout';
 import { pageContainer } from '../styles/layout.module.css';
+import RightSideBar from '../components/layout/right-sidebar';
+import LeftSideBar from '../components/layout/left-sidebar';
 
-
-// Step 2: Define your component
-const IndexPage = () => {
+const App = () => {
   return ( 
     <div className={ pageContainer }>
       <Header />
+      <LeftSideBar />
+      <RightSideBar />
       <Layout>
-        <Intro />
+        <Hero />
+        <About />
       </Layout>
     </div>
   )
 };
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Christien Kelly</title>;
+export const Head = () => (
+  <head>
+    <title>Christien</title>
+    <link rel="icon" href="svg/favicon.svg"/>
+  </head>
+);
 
-// Step 3: Export your component
-export default IndexPage;
+export default App;

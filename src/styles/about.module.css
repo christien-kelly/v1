@@ -1,0 +1,15 @@
+.aboutSection {
+    height: 100vh;
+    width: 100vw;
+}
+
+.aboutHeader {
+    margin: 2rem 0;
+    font-size: 160%;
+    font-weight: 200;
+    display: flex;
+}
+
+.aboutHeader__hr {
+    width: 360px;
+}

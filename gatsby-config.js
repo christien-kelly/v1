@@ -7,11 +7,12 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
-    //"gatsby-plugin-google-gtag", 
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-react-svg",
       options: {
-        "icon": "src/images/icon.png"
+        rule: {
+          include: /\.inline\.svg$/
+        }
       }
     }, 
     {

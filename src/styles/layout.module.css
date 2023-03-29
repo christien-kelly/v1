@@ -1,21 +1,30 @@
 .contentContainer {
     display: flex;
+    flex-direction: column;
     height: 100%;
+    width: 100%;
 }
 
-.leftNavContainer {
+.leftNavContainer,
+.rightNavContainer {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    margin: 0.2rem 3rem;
+    margin: 0.2rem 2.5rem;
     color: rgba(0, 0, 0, 0.504);
     transition: margin-bottom 0.3s, color 0.3s, border-color 0.3s;
 }
 
-.leftNavContainer:hover {
-    margin-bottom: 0.4rem;
-    color: rgba(0, 0, 0, 0.697);
-    border-color: rgba(0, 0, 0, 0.697);
+.leftNavContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.rightNavContainer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .sidebarNavEmail {
@@ -45,7 +54,8 @@
 
 .pageContainer {
     display: flex;
-    height: 100vh;
+    height: auto;
+    max-width: 100%;
     flex-direction: column;
 }
 

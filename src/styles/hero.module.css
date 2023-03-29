@@ -1,7 +1,6 @@
-.contentContainer {
-    height: 100%;
-    width: 100%;
-    padding-left: 4rem;
+.introSection {
+    height: 100vh;
+    width: 100vw;
 }
 
 .introSmallText {
@@ -34,8 +33,7 @@
     margin-top: 3rem;
     width: 250px;
     height: 70px;
-    position: relative;
-    background: #f7f5f6;
+    background: var(--off-white-button);
     margin-bottom: 25px;
     border-radius: 18px;
     text-align: center;

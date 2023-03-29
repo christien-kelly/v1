@@ -3,6 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,1000&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
+:root {
+    --deep-blue: #022d36;
+    --off-white-button: #f8f9fa;
+    --off-white-button__hover: #dadce0;
+}
+
 *,
 *::before,
 *::after  {
@@ -18,4 +24,25 @@
 a {
     color: inherit; 
     text-decoration: inherit; 
+}
+
+/* We are going to stack sections like lego blocks */
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.section__content {
+    padding: 4.5rem 9rem 4rem 9rem;
+}
+
+.dash {
+    width: 80px;
+    border-bottom: 1px solid black;
+    height: 1px;
+    margin: auto 0 auto 15px;
+}
+
+.intrim-section {
+    background-color: #fafafa;
 }

@@ -10,14 +10,14 @@ import {
 const Header = () => {
     return (
         <div className={headerContainer}>
-            <div className={logoContainer}>
-                C
-            </div>
+            <a href='#hero'>
+                <div className={logoContainer}>
+                    👨🏾‍💻
+                </div>
+            </a>
             <div className={navItemsContainer}>
                 <ul className='nav-items'>
-                    <li className={navLink}>About</li>
-                    <li className={navLink}>Experience</li>
-                    <li className={navLink}>Projects</li>
+                    <li className={navLink}><a href='#about'>About</a></li>
                 </ul>
                 <a target='_blank' rel="noreferrer" href={`docs/Christien Kelly - Resume.pdf`}>
                     <button className={navButton}>
