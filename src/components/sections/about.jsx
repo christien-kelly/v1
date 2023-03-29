@@ -51,7 +51,7 @@ const About = () => {
                 <div className={aboutContent__profileImage}>
                     <StaticImage 
                         alt='profile image'
-                        src={"../../../public/images/profile-image.png"}
+                        src={"https://lh5.googleusercontent.com/xmakRSpJ5UTKHGJ5dONyuq_Lw7MXF2EL-jtkaVriIyi8GLApU1WUIhfO66RWA7J7FSI=w2400"}
                         imgClassName={profileImage}
                         className={profileImage__container}
                     />
