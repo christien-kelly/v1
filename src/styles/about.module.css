@@ -4,12 +4,99 @@
 }
 
 .aboutHeader {
-    margin: 2rem 0;
+    margin: 1.5rem 0 2rem 0;
     font-size: 160%;
     font-weight: 200;
     display: flex;
 }
 
-.aboutHeader__hr {
-    width: 360px;
+.aboutContent {
+    display: flex;
+}
+
+.aboutContent__textWrapper {
+    width: 600px;
+}
+
+.aboutContent__textWrapper p {
+    margin-bottom: 1em;
+    font-size: 95%;
+}
+
+.aboutContent__textWrapper p span a {
+    cursor: pointer;
+    color: #7b3dd4;
+    font-size: 95%;
+
+    transition: color 0.5s;
+}
+
+.aboutContent__textWrapper p span a:hover {
+    color: #6c2fc2;;
+}
+
+.aboutContent__profileImage {
+    width: 300px;
+    margin-left: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImage__container {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 45px;
+    overflow: visible;
+    cursor: pointer;
+    background-color: #022d361a;
+
+    transition: background-color 0.4s;
+}
+
+.profileImage__container:hover {
+    background-color: #022d364e;
+}
+
+.profileImage {
+    border-radius: 45px;
+    top: 20px !important;
+    left: 20px !important;
+    position: absolute !important;
+}
+
+        
+.aboutContent__textWrapper ul {
+    display: block;
+    margin-left: -10px;
+}
+  
+.aboutContent__textWrapper ul li {
+    display: block;
+    position: relative;
+    font-size: 85%;
+    cursor: default;
+}
+  
+.aboutContent__textWrapper ul li:not(:last-child) {
+    margin-bottom: 16px;
+}
+  
+.aboutContent__textWrapper ul li:before {
+    content: "";
+    position: absolute;
+    top: 1.2em;
+    left: -30px;
+    margin-top: -.9em;
+    background: #f69ec4;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.aboutContent__textWrapper__tools {
+    display: flex;
+    margin-left: 45px;
+    justify-content: space-between;
+    width: 80%;
 }

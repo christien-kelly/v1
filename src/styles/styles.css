@@ -43,6 +43,6 @@ section {
     margin: auto 0 auto 15px;
 }
 
-.intrim-section {
+section.intrim-section {
     background-color: #fafafa;
 }
