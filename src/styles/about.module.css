@@ -47,7 +47,7 @@
     border: 1px solid black;
     padding: 5px;
     border-radius: 45px;
-    overflow: visible;
+    overflow: visible !important;
     cursor: default;
     background-color: #022d361a;
 
