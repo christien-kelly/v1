@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { BsMedium } from 'react-icons/bs';
 import { Link } from 'gatsby';
 import { 
     leftNavContainer,
     sidebarNavFooter,
-    sidebarNavIcon
+    sidebarNavIcon,
+    sidebarNavIcon__special
 } from '../../styles/layout.module.css';
 
 const LeftSideBar = () => {
@@ -32,7 +33,14 @@ const LeftSideBar = () => {
                     ><BsMedium size={26}/>
                 </Link>
             </div>
-            <div className={sidebarNavFooter}></div>
+            <div className={sidebarNavIcon__special}>
+                <Link 
+                    to='mailto:christien.kelly@gmail.com'
+                    target='_blank'
+                    ><FiMail size={26}/>
+                </Link>
+            </div>
+            <div className={sidebarNavFooter} />
         </div>
     );
 }

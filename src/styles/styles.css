@@ -46,3 +46,24 @@ section {
 section.intrim-section {
     background-color: #fafafa;
 }
+
+@media (max-width: 425px) {
+    * {
+        font-size: 17px;
+    }
+
+    .section__content {
+        padding: 2.5rem 2rem 4rem 4.2rem;
+      }
+    
+      p {
+        line-height: 1.8;
+        letter-spacing: 1.4px;
+      }
+    
+    section {
+        min-height: 100vh;
+        max-height: 150vh;
+        height: auto;
+    }
+}

@@ -100,3 +100,20 @@
     justify-content: space-between;
     width: 80%;
 }
+
+@media (max-width: 425px) {
+
+    .aboutContent {
+        flex-direction: column;
+    }
+
+    .aboutContent__textWrapper {
+        width: 100%;
+    }
+
+    .aboutContent__profileImage {
+        width: 200px;
+        margin-top: 3em;
+        margin-left: 1em;
+    }
+}

@@ -41,15 +41,21 @@
     color: rgba(0, 0, 0, 0.697);
 }
 
-.sidebarNavIcon {
+.sidebarNavIcon,
+.sidebarNavIcon__special {
     cursor: pointer;
     margin-bottom: 0.5rem;
     transition: font-size 0.3s, color 0.3s;
 }
 
-.sidebarNavIcon:hover {
+.sidebarNavIcon:hover,
+.sidebarNavIcon__special:hover {
     font-size: 130%;
     color:rgb(0, 0, 0);
+}
+
+.sidebarNavIcon__special {
+    display: none;
 }
 
 .pageContainer {
@@ -63,4 +69,22 @@
     height: 150px;
     margin-left: 50%;
     border-left: 2.75px rgba(0, 0, 0, 0.472) solid;
+}
+
+@media (max-width: 425px) {
+    .rightNavContainer {
+        display: none;
+    }
+
+    .sidebarNavIcon__special {
+        display: block;
+    }
+
+    .leftNavContainer {
+        margin: 0.2rem 1rem;
+    }
+
+    .sidebarNavFooter {
+        height: 100px;
+    }
 }

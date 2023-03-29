@@ -39,15 +39,13 @@
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
     color: rgba(0, 0, 0, 0.8);
     font-size: 90%;
 }
 
 .introButton:hover {
     opacity: 0.7;
-    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.611),
-      6px 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--off-white-button__hover);
 }
 
 .introButton:active {
@@ -55,4 +53,10 @@
     box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
           inset 8px 8px 16px rgba(0, 0, 0, 0.1);
     color: #2b966a;
+}
+
+@media (max-width: 425px) {
+    .introName, .introCaption {
+        font-size: 200%;
+    }
 }
